@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.card {
+    height: 100% !important;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.price {
+    font-size: 1.75rem;
+}
+
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.img-fluid {
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+
+.cart {
+    margin-top: 50px;
+    padding: 30px;
+}
